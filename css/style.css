@@ -12,8 +12,6 @@ body {
     max-width: 1440px;
     color: #ffffff;
     text-rendering: optimizeLegibility;
-    overflow: hidden;
-    
 }
 
 .btn {
