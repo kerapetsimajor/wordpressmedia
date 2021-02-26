@@ -3,15 +3,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   /* box-sizing: border-box; */
 }
 
-html,
 body {
     font-family: 'Poppins', sans-serif;
     max-width: 1440px;
-    color: #ffffff;
-    text-rendering: optimizeLegibility;
 }
 
 .btn {
@@ -75,6 +72,48 @@ p {
 
 }
 
+@media screen and (max-width: 900px) {
+    .btn {
+        padding: 6px 25px;
+    }
+    
+    h1 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    h3, h4 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .btn {
+        padding: 6px 25px;
+    }
+
+    h1 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    h3, h4 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
 /*------------------ Header ----------------------*/
 
 .header-section {
@@ -130,6 +169,26 @@ header {
     border-bottom: 2px solid #146ee6;
     transition: .5s ease;
     color: #146ee6;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        padding: 1rem 3rem;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 1rem 2rem;
+    }
+
+    .nav-bar {
+        display: none;
+    }
 }
 
 /*------------------ Hero ----------------------*/

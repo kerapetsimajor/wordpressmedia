@@ -1,0 +1,87 @@
+/* Small devices (portrait tablets and large phones, 600px and up) *
+@media only screen and (max-width: 600px) {
+    .testimonials {
+        flex-direction: column-reverse;
+        margin: 2rem -4rem;
+    }
+    .testimonials-project {
+        margin: auto;
+        width: 40%;
+        padding-bottom: 2rem;
+        order: 2;
+    }
+    .testimonials-project img {
+        width: auto;
+        height: 220px;
+    }
+    .testimonials-items {
+        width: 80%;
+        margin-top: -3rem;
+        padding: 0 2rem 2rem 2rem;
+    }
+    .testimonials-profile {
+        width: 60%;
+        order: 1;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) *
+@media only screen and (max-width: 768px) {
+    .testimonials {
+        margin: 5rem -3rem;
+        flex-direction: column-reverse;
+    }
+    .testimonials-project {
+        margin: auto;
+        width: 36%;
+        padding-bottom: 2rem;
+        order: 2;
+    }
+    .testimonials-items {
+        width: 60%;
+        margin-top: -3rem;
+        padding: 0 2rem 2rem 2rem;
+    }
+    .testimonials-project img {
+        width: auto;
+        height: 240px;
+    }
+    .testimonials-profile {
+        order: 1;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) *
+@media only screen and (max-width: 992px) {
+    .testimonials {
+        margin: 7rem -10rem;
+    }
+    .testimonials-items {
+        padding-top: 4rem;
+    }
+    .testimonials-project img {
+        height: auto;
+        width: 220px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) *
+@media only screen and (max-width: 1200px) {
+    .testimonials {
+        width: 750px;
+    }
+} */
+
+@media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px) {
+        .testimonials {
+            width: 100%;
+            padding-bottom: 4rem;
+        }
+        .testimonial-container {
+            margin: 0;
+            padding: 4rem 0;
+        }
+
+}
