@@ -166,6 +166,10 @@ header {
     background: rgba(249, 249, 249, 0.90);
     padding: 5rem;
 }
+.testimonials-text {
+    text-align: center;
+    padding: 5rem;
+}
 
 .services-item-text {
     text-align: center;
@@ -316,6 +320,12 @@ header {
     padding: 1rem 2rem;
 }
 
+.testimonial-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .testimonial-items {
     margin: auto;
     width: 50%;
@@ -333,17 +343,6 @@ header {
     align-items: center;
 }
 
-.testimonial-item-icons {
-    margin: auto;
-    width: 100%;
-    padding-left: 5rem;
-}
-
-.testimonial-items .fas {
-    color: #17252A;
-    padding-right: 1.5rem;
-}
-
 .testimonial-items img {
     width: 175px;
     height: auto;
@@ -351,29 +350,24 @@ header {
     border-radius: 50%;
 }
 
-.testimonial-items p {
+.testimonial-item-text {
     text-align: center;
     padding: 1rem;
 }
 
-.testimonial-items a {
-    justify-content: center;
-    align-items: center;
+q {
+    font-style: italic;
 }
 
-.testimonials-text{
-    padding: 5rem 0;
-}
-
-.testimonials-text h2,p {
+.author {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
     text-align: center;
+    padding-top: 1rem;
+    color: #278ED3;
 }
 
-.testimonial-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /*------------------ Section Icons ----------------------*/
 
