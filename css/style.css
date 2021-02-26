@@ -301,9 +301,8 @@ header {
 }
 
 .testimonial-container {
-    padding: 2rem;
     margin: 0 7rem;
-    padding: 1rem 3rem;
+    padding: 4rem 3rem;
 }
 
 .testimonial-projects img {
@@ -331,13 +330,14 @@ header {
 }
 
 .testimonial-items a {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .testimonial-item-icons {
     margin: auto;
-    width: 50%;
+    width: 100%;
     padding-left: 5rem;
 }
 
@@ -356,6 +356,11 @@ header {
 .testimonial-items p {
     text-align: center;
     padding: 1rem;
+}
+
+.testimonial-items a {
+    justify-content: center;
+    align-items: center;
 }
 
 .testimonials-text{
